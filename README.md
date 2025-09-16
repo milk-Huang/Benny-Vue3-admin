@@ -1,4 +1,4 @@
-English | [简体中文](./README-zh_CN.md)
+简体中文 | [English](./README-en_US.md)
 <p style="display:flex; justify-content: center">
 
 </p>
@@ -23,74 +23,94 @@ English | [简体中文](./README-zh_CN.md)
   &nbsp<a href="https://cnb.cool/tencent/tdesign/tdesign-vue-next-starter/"><b>cnb.cool</b></a>
 </p>
 
-### Introduction
+### 项目简介
 
-TDesign Vue Next Starter is a TDesign-based developed with `Vue 3`, `Vite`, `Pinia`, `TypeScript`. It can be customized theme configuration, and aims to provide project out-of-the-box, configuration-style middle and background projects.
+TDesign Vue Next Starter 是一个基于 TDesign，使用 `Vue3`、`Vite`、`Pinia`、`TypeScript` 开发，可进行个性化主题配置，旨在提供项目开箱即用的、配置式的中后台项目。
 
 <img src="docs/starter.png">
 
-### Features
+### 特性
 
-- Various provided pages for develop
-- Complete directory structure for develop
-- Code specification configuration
-- Support dark mode
-- Custom theme colors
-- Various space layouts
-- Mock data scheme
+- 内置多种常用的中后台页面
+- 完善的目录结构
+- 完善的代码规范配置
+- 支持深色模式
+- 自定义主题颜色
+- 多种空间布局
+- 内置 Mock 数据方案
 
-### Usage
+### 使用
 
-> Initialize project with our CLI tool `tdesign-starter-cli` 
+> 通过 `tdesign-starter-cli` 初始化项目仓库
 
 ```bash
-## install tdesign-starter-cli
+## 1、安装 tdesign-starter-cli
 npm i tdesign-starter-cli@latest -g
 
-## create project
+## 2、创建项目
 td-starter init
 ```
 
-### Develop
+### 开发
 
-```bash
-## install dependencies
+``` bash
+## 安装依赖
 npm install
 
-## set up
+## 启动项目
 npm run dev
 ```
 
-### Build
+### 构建
 
 ```bash
-## build
+## 构建正式环境
 npm run build
 
-## build for test
+## 构建测试环境
 npm run build:test
 ```
 
+### 其他
 
-### Contributing Guide
+```bash
+## 预览构建产物
+npm run preview
 
-We welcome contributions to our project. Create your [Issue](https://github.com/tencent/tdesign-vue-next-starter/issues/new/choose) or Submit your [Pull Request](https://github.com/Tencent/tdesign-vue-next-starter/pulls).
+## 代码格式检查
+npm run lint
 
-#### Commit Specification
+## 代码格式检查与自动修复
+npm run lint:fix
+
+## style格式检查
+npm run stylelint
+
+## style格式检查与自动修复
+npm run stylelint:fix
+```
+
+### 如何贡献
+
+非常欢迎您的贡献！提交您的 [Issue](https://github.com/tencent/tdesign-vue-next-starter/issues/new/choose) 或者提交 [Pull Request](https://github.com/Tencent/tdesign-vue-next-starter/pulls)。
+
+#### 贡献提交规范
 
 - [Angular Convention](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-angular)
 - [Vue Style Guide](https://v3.vuejs.org/style-guide/#rule-categories)
 
-### Browser Support
+### 兼容性
 
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br> IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Edge >=84                                                                                                                                                                                                        | Firefox >=83                                                                                                                                                                                                      | Chrome >=84                                                                                                                                                                                                   | Safari >=14.1                                                                                                                                                                                                 |
+| Edge >=84                                                                                                                                                                                                        | Firefox >=83                                                                                                                                                                                                      | Chrome >=84                                                                                                                                                                                                   | Safari >=14.1                                                                                                                                                                                                  |
 
-### Community Versions
+### 社区版本
 
-There are kinds of community versions of starter-kit based on TDesign Vue Next, visit [community-link](https://tdesign.tencent.com/starter/docs/vue-next/community-link) for more detail. If you developed a community versions of tdesign starter, please create a issue or submit a pull request to let us know 😊.
+基于 TDesign Vue Next 的 starter-kit 有多种社区版本，访问 [社区链接](https://tdesign.tencent.com/starter/docs/vue-next/community-link) 可以访问更多版本。 
+如果您也开发了 TDesign Starter 的社区版本，可以提交 Issue 或者直接给我们提Pull Request 😊。
 
-### License
+### 开源协议
 
-The MIT License. Please see [the license file](LICENSE) for more information.
+TDesign 遵循 [MIT 协议](https://github.com/Tencent/tdesign-vue-next-starter/LICENSE)。
+

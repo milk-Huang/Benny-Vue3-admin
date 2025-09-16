@@ -2,6 +2,8 @@
   "name": "@tencent/tdesign-vue-next-starter",
   "version": "0.13.1",
   "type": "module",
+  "author": "huangzuobing",
+  "source": "https://github.com/tencent/tdesign-vue-next-starter.git",
   "scripts": {
     "dev:mock": "vite --open --mode mock",
     "dev": "vite --open --mode development",
