@@ -41,5 +41,9 @@
     { "rule": "*-newline", "severity": "off", "fixable": true },
     { "rule": "*quotes", "severity": "off", "fixable": true },
     { "rule": "*semi", "severity": "off", "fixable": true }
+  ],
+  "i18n-ally.localesPaths": [
+    "src/locales",
+    "src/locales/lang"
   ]
 }
